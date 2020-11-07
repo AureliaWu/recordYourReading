@@ -1,0 +1,49 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		}
+	    ,{
+            "path" : "pages/homePage/homePage",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/bookshelf/bookshelf",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/myCenter/myCenter",
+            "style" : {}
+        }
+    ],
+	"tabBar": {
+		"color":"#dbdbdb",
+		"selectedColor":"#29a19c",
+		"backgroundColor":"#393e46",
+		"list": [{
+			"pagePath":"pages/homePage/homePage",
+			"iconPath":"static/nav/reading.png",
+			"selectedIconPath":"static/nav/reading-selected.png",
+			"text":"正在读"
+		},
+		{
+			"pagePath":"pages/bookshelf/bookshelf",
+			"iconPath":"static/nav/shelf.png",
+			"selectedIconPath":"static/nav/shelf-selected.png",
+			"text":"书架"
+		},
+		{
+			"pagePath":"pages/myCenter/myCenter",
+			"iconPath":"static/nav/me.png",
+			"selectedIconPath":"static/nav/me-selected.png",
+			"text":"我的"
+		}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "读与记",
+		"navigationBarBackgroundColor": "#222831",
+		"backgroundColor": "#393e46"
+	}
+}
